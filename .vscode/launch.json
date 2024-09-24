@@ -1,0 +1,38 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Oven",
+            "type": "coreclr",
+            "request": "launch",           
+            "preLaunchTask": "build-Oven",
+            "program": "${workspaceFolder}/Oven/bin/Debug/net8.0/Oven.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Oven",
+            "console": "externalTerminal",
+            "stopAtEntry": false
+        },
+        {
+            "name": "Heating",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-Heating",
+            "program": "${workspaceFolder}/Heating/bin/Debug/net8.0/Heating.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Heating",
+            "console": "externalTerminal",
+            "stopAtEntry": false
+        },
+        {
+            "name": "Loading",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-Loading",
+            "program": "${workspaceFolder}/Loading/bin/Debug/net8.0/Loading.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Loading",
+            "console": "externalTerminal",
+            "stopAtEntry": false
+        }
+    ]
+}
